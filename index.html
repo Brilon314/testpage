@@ -37,7 +37,12 @@
 
   
 <h1 class="col-md-12 text-dark text-center">Productos</h1>
-<div id="lista-productos"></div>
+<div class="container">
+  <div class="row">
+    <div id="lista-productos" class="row row-cols-1 row-cols-md-3 g-4"></div>
+  </div>
+</div>
+
 
 
   <footer>
@@ -60,16 +65,19 @@ fetch('productos.json')
   .then(data => {
     const listaProductos = document.getElementById('lista-productos');
 
-    // Iterar sobre los productos y crear elementos HTML para mostrarlos
+    // Iterar sobre los productos y crear las cards
     data.forEach(producto => {
       const productoHTML = `
-        <div>
-          <h3>${producto.nombre}</h3>
-          <p>Precio: $${producto.precio}</p>
-          <p>${producto.descripcion}</p>
-          <img src="${producto.imagen}" alt="Imagen del producto">
+        <div class="col">
+          <div class="card">
+            <img src="${producto.imagen}" class="card-img-top" alt="Imagen del producto">
+            <div class="card-body">
+              <h5 class="card-title">${producto.nombre}</h5>
+              <p class="card-text">${producto.descripcion}</p>
+              <p class="card-text">Precio: $${producto.precio}</p>
+            </div>
+          </div>
         </div>
-        <hr>
       `;
 
       listaProductos.innerHTML += productoHTML;
