@@ -54,29 +54,31 @@
     crossorigin="anonymous"></script>
 
   <script>
-    // Cargar y mostrar los productos desde el archivo JSON
-    fetch('productos.json')
-      .then(response => response.json())
-      .then(data => {
-        const listaProductos = document.getElementById('lista-productos');
+   // Cargar y mostrar los productos desde el archivo JSON
+fetch('productos.json')
+  .then(response => response.json())
+  .then(data => {
+    const listaProductos = document.getElementById('lista-productos');
 
-        // Iterar sobre los productos y crear elementos HTML para mostrarlos
-        data.forEach(producto => {
-          const productoHTML = `
-            <div>
-              <h3>${producto.nombre}</h3>
-              <p>Precio: $${producto.precio}</p>
-              <p>${producto.descripcion}</p>
-            </div>
-            <hr>
-          `;
+    // Iterar sobre los productos y crear elementos HTML para mostrarlos
+    data.forEach(producto => {
+      const productoHTML = `
+        <div>
+          <h3>${producto.nombre}</h3>
+          <p>Precio: $${producto.precio}</p>
+          <p>${producto.descripcion}</p>
+          <img src="${producto.imagen}" alt="Imagen del producto">
+        </div>
+        <hr>
+      `;
 
-          listaProductos.innerHTML += productoHTML;
-        });
-      })
-      .catch(error => {
-        console.error('Error al cargar los productos:', error);
-      });
+      listaProductos.innerHTML += productoHTML;
+    });
+  })
+  .catch(error => {
+    console.error('Error al cargar los productos:', error);
+  });
+
   </script>
 
 </body>
