@@ -37,6 +37,23 @@
 
   
 <h1 class="col-md-12 text-dark text-center">Productos</h1>
+
+<style>
+  .card-img-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%; /* Establece la altura de la imagen como un porcentaje para que sea un cuadrado */
+  }
+
+  .card-img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+</style>
+
 <div class="container">
   <div class="row">
     <div id="lista-productos" class="row row-cols-1 row-cols-md-3 g-4"></div>
