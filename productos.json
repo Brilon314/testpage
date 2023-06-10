@@ -3,24 +3,24 @@
     "nombre": "Producto 1",
     "descripcion": "Descripción del producto 1",
     "precio": 10.99,
-    "imagen": "...img/prod1.jpg"
+    "imagen": "img/prod1.jpg"
   },
   {
     "nombre": "Producto 2",
     "descripcion": "Descripción del producto 2",
     "precio": 19.99,
-    "imagen": "...img/prod2.jpg"
+    "imagen": "img/prod2.jpg"
   },
   {
     "nombre": "Producto 3",
     "descripcion": "Descripción del producto 3",
     "precio": 5.99,
-    "imagen": "...img/prod3.jpg"
+    "imagen": "img/prod3.jpg"
   },
   {
     "nombre": "Producto 4",
     "descripcion": "Descripción del producto 3",
     "precio": 5.99,
-    "imagen": "...img/prod4.jpg"
+    "imagen": "img/prod4.jpg"
   }
 ]
