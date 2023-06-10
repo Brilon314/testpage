@@ -52,6 +52,10 @@
     width: 100%;
     height: auto;
   }
+  .cursor-pointer {
+  cursor: pointer;
+}
+
 </style>
 
 <div class="container">
@@ -61,7 +65,7 @@
 </div>
 
 <div class="modal fade" id="imagenModal" tabindex="-1" aria-labelledby="imagenModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-dialog-centered justify-content-center modal-xl">
     <div class="modal-content">
       <div class="modal-body">
         <img id="imagenModalImg" src="" class="img-fluid" alt="Imagen del producto">
@@ -93,7 +97,7 @@ fetch('productos.json')
         <div class="col">
           <div class="card">
             <div class="card-img-container">
-              <img src="${producto.imagen}" class="card-img-top" alt="Imagen del producto" data-bs-toggle="modal" data-bs-target="#imagenModal" data-bs-img="${producto.imagen}" data-bs-caption="${producto.nombre}">
+              <img src="${producto.imagen}" class="card-img-top cursor-pointer" alt="Imagen del producto" data-bs-toggle="modal" data-bs-target="#imagenModal" data-bs-img="${producto.imagen}" data-bs-caption="${producto.nombre}">
             </div>
             <div class="card-body">
               <h5 class="card-title">${producto.nombre}</h5>
