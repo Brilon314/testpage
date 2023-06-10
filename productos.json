@@ -3,24 +3,24 @@
     "nombre": "Colgante de Plata",
     "descripcion": "Hermoso colgante artesanal de plata con diseño único.",
     "precio": 39.99,
-    "imagen": "img/colgante1.jpg"
+    "imagen": "img/prod1.jpg"
   },
   {
     "nombre": "Colgante de Piedra Natural",
     "descripcion": "Elegante colgante hecho a mano con piedra natural de alta calidad.",
     "precio": 29.99,
-    "imagen": "img/colgante2.jpg"
+    "imagen": "img/prod2.jpg"
   },
   {
     "nombre": "Colgante de Cuarzo Rosa",
     "descripcion": "Delicado colgante con cristal de cuarzo rosa en forma de corazón.",
     "precio": 19.99,
-    "imagen": "img/colgante3.jpg"
+    "imagen": "img/prod3.jpg"
   },
   {
     "nombre": "Colgante de Plata y Ámbar",
     "descripcion": "Colgante único con diseño de plata y piedra de ámbar báltico.",
     "precio": 49.99,
-    "imagen": "img/colgante4.jpg"
+    "imagen": "img/prod4.jpg"
   }
 ]
