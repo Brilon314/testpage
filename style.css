@@ -1,0 +1,93 @@
+/* .carousel-inner > .inner > img{
+    height: 50%;
+    width: 50%;
+
+}
+.carousel slide{
+    height: 500px;
+} */
+/* .carousel-inner{
+    height: 70%;
+    width: 70%;
+} */
+.col-md-4{
+    border-color: white;
+    border: 3px;
+}
+body{
+    margin-top: 50px;
+    /* scroll-padding-top: 200px;
+    scroll-margin-top: 80px; */
+    background-color: whitesmoke;
+}
+.col{
+    scroll-margin-top: 80px;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    
+    
+}
+h1{
+    /* margin: 30px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.h1dark{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+.pdark{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.separador{
+    height: 30px;
+    background-color: white;
+}
+.imgpresentaciion{
+    /* width: 100%; */
+    height: 300px;
+    object-fit: none;
+    /* border-radius: 2%; */
+    
+} 
+.logo{
+    height: 100px;
+    /* padding-bottom: 20px; */
+}
+.h1-bottom{
+    font-size: 50px;
+
+}
+.pbottom{
+    padding-top: 15px;
+
+}
+.izqyder{
+    background-color: #5D9C59;
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.parrafo{
+    padding: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+h5{
+    font-size: 16px;
+}
