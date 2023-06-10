@@ -10,6 +10,50 @@
     height: 70%;
     width: 70%;
 } */
+
+  .card-img-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%; /* Establece la altura de la imagen como un porcentaje para que sea un cuadrado */
+  }
+
+  .card-img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .cursor-pointer {
+  cursor: pointer;
+}
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.modal-content {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: 0;
+}
+
+.modal-body {
+  text-align: center;
+  padding: 0;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .col-md-4{
     border-color: white;
     border: 3px;
