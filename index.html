@@ -87,7 +87,9 @@ fetch('productos.json')
       const productoHTML = `
         <div class="col">
           <div class="card">
-            <img src="${producto.imagen}" class="card-img-top" alt="Imagen del producto">
+            <div class="card-img-container">
+              <img src="${producto.imagen}" class="card-img-top" alt="Imagen del producto">
+            </div>
             <div class="card-body">
               <h5 class="card-title">${producto.nombre}</h5>
               <p class="card-text">${producto.descripcion}</p>
